@@ -21,14 +21,44 @@ h1 {
 
 .beans {
   background-image: url(/images/beans.jpeg);
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+.beans:hover {
+  background: url(/recipes/salt.gif);
+  width: 250px;
+  height: 200px;
+  background-size: cover;
 }
 
 .pot-noodle {
   background-image: url(/images/pot-noodle.jpeg);
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+.pot-noodle:hover {
+  background: url(/recipes/noodles.gif);
+  width: 250px;
+  height: 200px;
+  background-size: cover;
 }
 
 .fish-and-chips {
   background-image: url(/images/fish-and-chips.jpeg);
+  -webkit-transition: 0.7s ease-in-out;
+  -moz-transition: 0.7s ease-out;
+  -o-transition: all 0.7s ease-in-out;
+}
+
+.fish-and-chips:hover {
+  background: url(/recipes/fish.gif);
+  width: 250px;
+  height: 200px;
+  background-size: cover;
 }
 
 #image-block {
