@@ -1,0 +1,43 @@
+body {
+  background-image: url("/images/Pink-Rice-Subtle-Texture.jpeg");
+}
+
+h1 {
+  color: rgb(250, 42, 226);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.beans,
+.fish-and-chips,
+.pot-noodle {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px 20px 20px 40px;
+}
+
+.beans {
+  background-image: url(/images/beans.jpeg);
+}
+
+.pot-noodle {
+  background-image: url(/images/pot-noodle.jpeg);
+}
+
+.fish-and-chips {
+  background-image: url(/images/fish-and-chips.jpeg);
+}
+
+#image-block {
+  float: left;
+}
+
+.text {
+  font-family: sans-serif;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 7%;
+}
