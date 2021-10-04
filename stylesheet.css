@@ -29,7 +29,7 @@ h1 {
 }
 
 .beans:hover {
-  background-image: url(/recipes/salt.gif);
+  background: url(/recipes/salt.gif);
   width: 250px;
   height: 200px;
   background-size: cover;
