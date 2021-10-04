@@ -1,5 +1,5 @@
 body {
-  background-image: url("/images/Pink-Rice-Subtle-Texture.jpeg");
+  background-image: url("images/Pink-Rice-Subtle-Texture.jpeg");
 }
 
 h1 {
@@ -8,62 +8,73 @@ h1 {
   text-align: center;
 }
 
-.beans,
-.fish-and-chips,
-.recipe-images,
-.pot-noodle {
+#beans {
+  position: relative;
   width: 250px;
   height: 200px;
   border: 2px solid black;
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
   margin: 10px 20px 20px 50px;
 }
 
-.beans {
-  background-image: url(/images/beans.jpeg);
-  -moz-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-}
-
-.beans:hover {
-  background: url(/recipes/salt.gif);
+#beans img {
+  position: absolute;
   width: 250px;
   height: 200px;
-  background-size: cover;
-  cursor: pointer;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
-.pot-noodle {
-  background-image: url(/images/pot-noodle.jpeg);
-  -moz-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
+#beans img.top:hover {
+  opacity: 0;
 }
 
-.pot-noodle:hover {
-  background: url(/recipes/noodles.gif);
+#pot-noodle {
+  position: relative;
   width: 250px;
   height: 200px;
-  background-size: cover;
-  cursor: pointer;
+  border: 2px solid black;
+  margin: 10px 20px 20px 50px;
 }
 
-.fish-and-chips {
-  background-image: url(/images/fish-and-chips.jpeg);
-  -moz-transition: all 0.7s ease-out;
-  -o-transition: all 0.7s ease-in-out;
-  transition: all 0.7s ease-in-out;
-}
-
-.fish-and-chips:hover {
-  background: url(/recipes/fish.gif);
+#pot-noodle img {
+  position: absolute;
   width: 250px;
   height: 200px;
-  background-size: cover;
-  cursor: pointer;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#pot-noodle img.top:hover {
+  opacity: 0;
+}
+
+#fish-and-chips {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 10px 20px 20px 50px;
+}
+
+#fish-and-chips img {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#fish-and-chips img.top:hover {
+  opacity: 0;
 }
 
 .image-block {
