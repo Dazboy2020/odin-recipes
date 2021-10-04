@@ -10,10 +10,12 @@ h1 {
 
 .beans,
 .fish-and-chips,
+.recipe-images,
 .pot-noodle {
   width: 250px;
   height: 200px;
   border: 2px solid black;
+  display: block;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 10px 20px 20px 50px;
@@ -21,9 +23,9 @@ h1 {
 
 .beans {
   background-image: url(/images/beans.jpeg);
-  -webkit-transition: 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-out;
   -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .beans:hover {
@@ -36,9 +38,9 @@ h1 {
 
 .pot-noodle {
   background-image: url(/images/pot-noodle.jpeg);
-  -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-out;
   -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .pot-noodle:hover {
@@ -51,23 +53,27 @@ h1 {
 
 .fish-and-chips {
   background-image: url(/images/fish-and-chips.jpeg);
-  -webkit-transition: all 0.7s ease-in-out;
   -moz-transition: all 0.7s ease-out;
   -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .fish-and-chips:hover {
   background: url(/recipes/fish.gif);
   width: 250px;
   height: 200px;
-  display: block;
   background-size: cover;
   cursor: pointer;
 }
 
-#image-block {
+.image-block {
   float: left;
 }
+
+#recipe-block {
+  float: left;
+}
+
 .text {
   font-family: sans-serif;
   font-size: 18px;
