@@ -13,7 +13,7 @@ h1 {
   width: 250px;
   height: 200px;
   border: 2px solid black;
-  margin: 10px 20px 20px 50px;
+  margin: 10px 20px 20px 70px;
 }
 
 #beans img {
@@ -36,7 +36,7 @@ h1 {
   width: 250px;
   height: 200px;
   border: 2px solid black;
-  margin: 10px 20px 20px 50px;
+  margin: 10px 20px 20px 70px;
 }
 
 #pot-noodle img {
@@ -59,7 +59,7 @@ h1 {
   width: 250px;
   height: 200px;
   border: 2px solid black;
-  margin: 10px 20px 20px 50px;
+  margin: 10px 20px 20px 70px;
 }
 
 #fish-and-chips img {
@@ -81,6 +81,7 @@ h1 {
 .imageblock2,
 .imageblock3 {
   float: left;
+  margin-left: 100px;
 }
 
 #recipe-block {
@@ -91,7 +92,7 @@ h1 {
   width: 250px;
   height: 200px;
   border: 2px solid black;
-  margin: 10px 20px 20px 50px;
+  margin: 10px 20px 20px 70px;
 }
 
 #text {
@@ -102,20 +103,15 @@ h1 {
   margin-right: 10%;
 }
 
-.beans-text {
-  float: right;
-  width: 700px;
-  height: 200px;
-}
-
-.noodle-text {
-  float: right;
-  width: 700px;
-  height: 200px;
-}
-
+.beans-text,
+.noodle-text,
 .fish-text {
   float: right;
-  width: 700px;
+  left: 10%;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 900px;
   height: 200px;
+  margin-right: 20%;
 }
