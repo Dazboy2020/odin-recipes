@@ -101,3 +101,21 @@ h1 {
   margin-left: 25%;
   margin-right: 10%;
 }
+
+.beans-text {
+  float: right;
+  width: 700px;
+  height: 200px;
+}
+
+.noodle-text {
+  float: right;
+  width: 700px;
+  height: 200px;
+}
+
+.fish-text {
+  float: right;
+  width: 700px;
+  height: 200px;
+}
